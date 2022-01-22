@@ -2,7 +2,7 @@
   <the-navbar></the-navbar>
 
   <div class="container with-nav">
-    <div class="card"></div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import TheNavbar from '@/components/TheNavbar'
 
 export default {
   components: {
-    TheNavbar
+    TheNavbar,
   },
 }
 </script>
