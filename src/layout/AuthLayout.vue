@@ -1,11 +1,18 @@
 <template>
   <div class="cantainer">
-   <router-view></router-view>
+    <app-message />
+    <router-view />
   </div>
 </template>
 
 <script>
-export default {}
+import AppMessage from '../components/ui/AppMessage.vue'
+
+export default {
+  components: {
+    AppMessage,
+  },
+}
 </script>
 
 <style></style>
