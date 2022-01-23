@@ -1,17 +1,19 @@
 <template>
   <the-navbar></the-navbar>
-
   <div class="container with-nav">
-    <router-view></router-view>
+    <app-message />
+    <router-view />
   </div>
 </template>
 
 <script>
-import TheNavbar from '@/components/TheNavbar'
+import TheNavbar from '../components/TheNavbar'
+import AppMessage from '../components/ui/AppMessage'
 
 export default {
   components: {
     TheNavbar,
+    AppMessage,
   },
 }
 </script>
