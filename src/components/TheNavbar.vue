@@ -11,7 +11,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/">
+        <router-link to="/help">
           Помощь
         </router-link>
       </li>
