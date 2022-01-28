@@ -16,7 +16,7 @@
         </router-link>
       </li>
       <li>
-        <a href="#">
+        <a href="#" @click.prevent="openSidebar">
           Сообщение
         </a>
       </li>
@@ -42,7 +42,8 @@ export default {
       logout: () => {
         store.commit('auth/logout')
         router.push('/auth')
-      }
+      },
+      openSidebar: () => store.commit('openSidebar'),
     }
   },
 }
