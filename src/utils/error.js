@@ -1,7 +1,7 @@
 const ERROR_CODES = {
   EMAIL_NOT_FOUND: 'Пользователь с таким email не был найден!',
   INVALID_PASSWORD: 'Введённый вами пороль не верный!',
-  auth: 'Ошибка авторизации!',
+  auth: 'Пожалуйста, войдите в систему!',
 }
 
 export function error(code) {
