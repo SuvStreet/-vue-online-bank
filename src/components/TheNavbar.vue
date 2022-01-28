@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar container">
     <h3>
       Online Bank
     </h3>
