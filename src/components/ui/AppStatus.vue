@@ -30,8 +30,6 @@ export default {
       pending: 'Выполняется',
     }
 
-    console.log('props', props);
-
     watch(props, (val) => {
       className.value = classesMap[val.type]
       text.value = textMap[val.type]
