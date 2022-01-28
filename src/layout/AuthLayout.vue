@@ -1,5 +1,5 @@
 <template>
-  <div class="cantainer">
+  <div class="container">
     <app-message />
     <router-view />
   </div>
